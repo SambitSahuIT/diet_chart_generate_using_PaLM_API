@@ -2,7 +2,7 @@
 import streamlit as st
 import google.generativeai as palm
 
-palm.configure(api_key='AIzaSyC0TXwyf8mEp68vHxk-oIukWcnlN1t3boI')
+palm.configure(api_key='PALM_API_KEY')
 
 
 def generate_text(prompt):
